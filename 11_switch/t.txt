@@ -1,0 +1,25 @@
+func calculate(input string) float64 {
+	parts := strings.Fields(input)
+
+	// First number
+	result, _ := strconv.ParseFloat(parts[0], 64)
+
+	// Process left to right
+	for i := 1; i < len(parts); i += 2 {
+		operator := parts[i]
+		nextNumber, _ := strconv.ParseFloat(parts[i+1], 64)
+
+		switch operator {
+		case "+":
+			result += nextNumber
+		case "-":
+			result -= nextNumber
+		case "*":
+			result *= nextNumber
+		case "/":
+			result /= nextNumber
+		}
+	}
+
+	return result
+}
