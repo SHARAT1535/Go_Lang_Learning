@@ -13,3 +13,15 @@ On Day 4 of my Go learning journey, I focused on understanding pointers and stru
 
 # Day 5
 On Day 5, I explored methods and interfaces in Go. I learned how to attach methods to structs and how methods help define behavior for custom types. I also studied interfaces, understanding how they allow different types to implement common behavior. I practiced writing programs that use interfaces to create flexible and modular code. This strengthened my understanding of abstraction and polymorphism in Go.
+
+# Day 6
+On Day 6 of my Go learning journey, I explored advanced concepts such as interfaces in depth, generics, and the use of range. I strengthened my understanding of how interfaces enable abstraction and flexible design in Go.
+
+I also learned about generics, understanding how to create reusable functions and data structures that can work with multiple data types while maintaining type safety. This helped me write cleaner and more scalable code.
+
+Additionally, I practiced using the range keyword to iterate efficiently over slices, arrays, and maps. This improved my ability to handle collections and write more readable looping logic.
+
+# Day 7
+On Day 7, I explored more advanced Go topics, including goroutines, error handling strategies, and panic. I learned how goroutines enable concurrent execution in Go, making it powerful for building scalable and high-performance applications.
+
+I studied how errors are handled idiomatically in Go, including creating custom error types and handling errors gracefully. I also understood the use of panic and recover, and when it is appropriate to use them in real-world applications.This day helped me understand Go’s concurrency model and improved my knowledge of writing robust and production-ready programs. 
